@@ -1,5 +1,3 @@
-package aaaa;
-
 
 public class Main {
 
