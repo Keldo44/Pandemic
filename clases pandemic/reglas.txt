@@ -1,0 +1,15 @@
+Reglas:
+------------------------------------------------------------------------------------------------------------
+1.Situacion inicial, tienes en frente un mapa y dos botones en la parte inferior,			   |
+con estos botones llevaras acabo las acciones durante la partida, uno de los 				   |
+botones es para curar una ciudad, si lo pulsas eliminaras la enfermedad de una ciudad			   |
+acambio de una accion(2) el otro boton es dessarrollo de vacuna, tu decides cuantas de tus acciones(2)	   |
+gastas en dessarrollo de vacuna y en cual de las 4 enfermedades, entonces por cada accion se dessarrollara |
+un porcentage de la vacuna elegida, el objetivo del juego es dessarrollar las 4 vacunas y erradicar todas  |
+las enfermedades.											   |
+------------------------------------------------------------------------------------------------------------
+2.Cada turno tendras 4 acciones que puedes elegir en las dos acciones possibles.			   |
+------------------------------------------------------------------------------------------------------------
+3.Hay 4 enfermedades, estas apareceran al inicio del juego en 4 ciudades diferentes, 			   |
+las enfermedades se iran exppandiendo con el paso de los turnos segun la dificultad elegida.		   |
+------------------------------------------------------------------------------------------------------------

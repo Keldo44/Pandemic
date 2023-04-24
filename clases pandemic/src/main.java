@@ -1,9 +1,9 @@
 
 public class main {
 
-	public main(String[] args) {
-		// TODO Auto-generated method stub
-		
-	}
+	 public static void main(String[] args) {
+	       // Crea una instancia del marco
+	       menu frame = new menu();
+	    }
 
 }

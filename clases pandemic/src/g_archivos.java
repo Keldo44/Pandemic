@@ -2,26 +2,38 @@ import java.io.*;
 import java.util.*;
 
 public class g_archivos {
+	
+	g_archivos(){
+		
+	}
    
-    public static Object[][] leerArchivo(String nombreArchivo) throws IOException {
-        ArrayList<Object[]> filas = new ArrayList<>();
-        BufferedReader br = new BufferedReader(new FileReader(nombreArchivo));
-        String linea;
-        while ((linea = br.readLine()) != null) {
-            String[] campos = linea.split(",");
-            Object[] fila = new Object[campos.length];
-            for (int i = 0; i < campos.length; i++) {
-                fila[i] = campos[i];
-            }
-            filas.add(fila);
-        }
-        br.close();
-        Object[][] matriz = new Object[filas.size()][];
-        for (int i = 0; i < filas.size(); i++) {
-            matriz[i] = filas.get(i);
-        }
-        return matriz;
-    }
+	public  String[] leer_archivo(String file) {
+		String [] file_lines = null;
+		try (RandomAccessFile raf = new RandomAccessFile(file,"rw")){
+			
+		
+			String line=raf.readLine();
+			int cont = 0;
+			while (line != null) {
+				cont++;
+				line=raf.readLine();
+			}
+			file_lines = new String[cont];
+			raf.seek(0);
+			line=raf.readLine();
+			for (int i = 0; i < cont; i++) {
+				file_lines[i]= line;
+				line=raf.readLine();
+			}
+			
+			
+		} catch (IOException e) {
+			System.out.println("NO ha chutado");
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		return file_lines;
+	}
    
     public static void escribirArchivo(String nombreArchivo, Object[][] matriz) throws IOException {
         BufferedWriter bw = new BufferedWriter(new FileWriter(nombreArchivo));
