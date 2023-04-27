@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><parametros>
+    <numCiudadesInfectadasInicio>20</numCiudadesInfectadasInicio>
+    <numCuidadesInfectadasRonda>20</numCuidadesInfectadasRonda>
+    <numEnfermedadesActivasDerrota>20</numEnfermedadesActivasDerrota>
+    <numBrotesDerrota>20</numBrotesDerrota>
+</parametros>
