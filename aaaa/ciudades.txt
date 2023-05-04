@@ -5,7 +5,7 @@ Montreal;0;350,280;Chicago,Nueva York,Washington;
 Nueva York;0;380,290;Montreal,Washington,Londres,Madrid;
 Washington;0;360,330;Montreal,Nueva York,Atlanta,Miami;
 Londres;0;700,230;Nueva York,Madrid,Paris,Essen;
-Madrid;0;687,290;Nueva York,Londres,Paris,Sao Paulo,Argel;
+Madrid;0;700,275;Nueva York,Londres,Paris,Sao Paulo,Argel;
 Paris;0;727,250;Madrid,Londres,Essen,Argel,Milan;
 Essen;0;755,190;Londres,Paris,San Petersburgo,Milan;
 Milan;0;755,235;Essen,Paris,Estambul;
